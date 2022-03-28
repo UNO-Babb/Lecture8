@@ -83,13 +83,12 @@ outFile.close()
 [MLB 2021 Data](https://www.baseball-reference.com/leagues/majors/2021.shtml)
 - Look at the datasets available on this site
 - Create a combined data file that has:
-  - Team Name
-  - Runs Scored Per Game
-  - Runs Allowed Per Game
-  - Wins
-  - Losses
-  - ERA
-  - Defensive Efficiency
+  - Team Name (Either)
+  - Runs Scored Per Game (Hitting)
+  - Runs Allowed Per Game (Pitching)
+  - Wins (Pitching)
+  - Losses (Pitching)
+  - ERA (Pitching)
 
 Save this combined file
 
