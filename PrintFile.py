@@ -1,11 +1,11 @@
 def main():
-    myFile = open("qbdata.txt", 'r')
+  myFile = open("qbdata.txt", 'r')
 
-    for line in myFile:
-        print (line)
+  for line in myFile:
+    print (line)
 
-    myFile.close()
+  myFile.close()
 
 
 if __name__ == '__main__':
-    main()
+  main()
