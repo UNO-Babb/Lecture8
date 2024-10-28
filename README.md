@@ -43,8 +43,8 @@ If we want to break the data down further, we would have to split the lines by s
 
 ```
 for line in myFile:
-  info = line.split(",")
-  print(info[0], "had a rating of", info[1])
+  info = line.split(" ")
+  print(info[0], info[1], "had a rating of", info[10])
 ```
 
 ### Writing to a file
@@ -73,14 +73,14 @@ outFile.close()
 
 
 ### Examining a dataset
-[Johns Hopkins COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19)
+[UFO Sightings](https://github.com/rfordatascience/tidytuesday/tree/2e9bd5a67e09b14d01f616b00f7f7e0931515d24/data/2019/2019-06-25)
 - Can you print all the data?
 - Can you isolate one state?
 - Can you find the sum total of cases by place?
 - Are there any data anomalies you would need to consider?
 
 ### Combining datasets
-[MLB 2021 Data](https://www.baseball-reference.com/leagues/majors/2021.shtml)
+[MLB 2024 Data](https://www.baseball-reference.com/leagues/majors/2024.shtml)
 - Look at the datasets available on this site
 - Create a combined data file that has:
   - Team Name (Either)
