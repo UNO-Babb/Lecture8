@@ -1,12 +1,3 @@
-import PrintFile
-#import WriteFile
-
-
-PrintFile.main()
-#WriteFile.main()
-
-
-"""
 def main():
   pitching = open("MLB_Pitching.csv", 'r')
   team_data = []
@@ -32,5 +23,3 @@ def main():
 
 if __name__ == '__main__':
   main()
-
-"""
